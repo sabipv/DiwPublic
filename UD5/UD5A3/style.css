@@ -1,0 +1,101 @@
+:root{
+    --main-color: #faa;
+    --secondary-color: #4E5C78;
+    --highlight-dark-color: #ddd;
+
+    --border-main-color: rgba(78, 92, 120, 0.5);
+    --persona-size: 200px;
+}
+
+.seccion {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.list-group-item-text {
+    margin-top: 10px;
+}
+
+.full-gray{
+    background-color: var(--highlight-dark-color);
+    width: 100%;
+}
+
+/*NAVBAR*/
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 3px;
+    opacity: 0.9;
+}
+
+.navbar-nav li a{
+    color: var(--main-color);
+}
+
+.navbar-nav li a:hover {
+    color: var(--highlight-dark-color) !important;
+}
+
+.navbar-nav a.nav-link.active
+ {
+    color: var(--secondary-color) !important;
+    background-color: #ddd !important;
+}
+
+/*-----------
+   $CAROUSEL
+------------*/
+.carousel-inner img{
+    width: 100%;
+}
+
+/*--------------
+   $PROFESORES
+---------------*/
+
+.persona {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    opacity: 0.8;
+
+    width: var(--persona-size);
+    height: var(--persona-size);
+    object-fit: cover;
+}
+
+.persona:hover {
+    border-color: var(--border-main-color);
+}
+
+/*-----------
+   $FOOTER  
+------------*/
+
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+    overflow: hidden;
+    font-size: 11px;
+
+}
+
+footer h4 {
+    margin-bottom: 0.6em;
+    padding-left: 40px;
+}
+
+footer h5 {
+    color: #ddd;
+}
+
+footer p {
+    color: #aaa;
+}
+
+.menu-footer {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institutos Gotham</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body id="home"
+    data-bs-spy="scroll"
+    data-bs-target=".navbar" 
+    data-bs-root-margin="0px 0px -40%" 
+    data-bs-smooth-scroll="true" 
+    class="scrollspy-example rounded-2" 
+    tabindex="0">
+    <div class="container">
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home">
+                    <img src="img/logo.png" width="50" alt="Logo proyecto Gotham, logo similar a un murcielago">
+                </a>
+                    <button class="navbar-toggler"
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navigationBar" 
+                        aria-controls="navigationBar">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="navigationBar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#home">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#estudios">ESTUDIOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#estudiantes">ESTUDIANTES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#profes">PROFESORES</a>
+                            </li>
+                            <li class="dropdown nav-item">
+                                <a class="nav-link" role="button" data-bs-toggle="dropdown" href="#" aria-expanded="false">
+                                    MAS INFORMACIÓN
+                                    <i class="bi-caret-down"></i>
+                                </a>
+                                
+                                <ul class="dropdown-menu bg-dark">
+                                    <li class="dropdown-item"><a href="#contacto">Contacto</a></li>
+                                    <li class="dropdown-item"><a href="#proyEuropa">Proyectos Europeos</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="bi-search"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+        <!-- Carrusel -->
+        <header id="mainCarousel" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button"
+                    data-bs-target="#mainCarousel" 
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1">
+                </button>
+                <button type="button"
+                    data-bs-target="#mainCarousel" 
+                    data-bs-slide-to="1"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 2">
+                </button>
+                <button type="button"
+                    data-bs-target="#mainCarousel" 
+                    data-bs-slide-to="2"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide ">
+                </button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/notebook.jpg" alt="Libreta con lapiceros de colores, una goma y un MacBook">
+                    <div class="carousel-caption">
+                        <h3>Tecnología</h3>
+                        <p>Con el apoyo de las mejores herramientas</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/woman.jpg" alt="Chica rubia leyendo en un bosque">
+                    <div class="carousel-caption">
+                        <h3>Con libertad</h3>
+                        <p>Estudia desde cualquier lugar y a cualquier hora</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/schoolboy.jpg" alt="Primer plano de una niña con uniforme sentanda en su pupitre">
+                    <div class="carousel-caption">
+                        <h3>Toda una vida por delante</h3>
+                        <p>Estudios para todas las edades, desde infantil a estudios superiores</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>    
+        </header>
+        <main>
+            <!-- Estudios -->
+            <section id="estudios">
+                <div class="container text-center seccion">
+                    <h3>INSTITUTOS GOTHAM</h3>
+                    <p><em>Pasión por enseñar</em></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit recusandae ea quis dicta quae. Expedita voluptates dolorum, saepe minus aperiam incidunt ad consequuntur sequi enim. Deserunt, fugiat placeat commodi earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit rem quam inventore atque eos, non voluptatum aperiam esse voluptatem quidem aliquam ea aut quo nam consequatur repellendus odio error velit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit recusandae ea quis dicta quae. Expedita voluptates dolorum, saepe minus aperiam incidunt ad consequuntur sequi enim. Deserunt, fugiat placeat commodi earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit rem quam inventore atque eos, non voluptatum aperiam esse voluptatem quidem aliquam ea aut quo nam consequatur repellendus odio error velit.</p>
+                </div>
+            </section>
+                <!-- Estudiantes -->
+            <section id="estudiantes" class="full-gray">
+                <div class="container seccion">
+                    <h3 class="text-center">ESTUDIANTES</h3>
+                    <p class="text-center">Matricúlate en nuestros cursos</p>
+                    <br>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-danger">
+                            <h4 class="list-group-item-heading">Infantil</h4>
+                            <p class="list-group-item-text">De 3 a 5 años <span class="badge bg-danger">Sin plazas</span></p>
+                        </li>
+                        <li class="list-group-item">
+                            <h4 class="list-group-item-heading">Secundaria</h4>
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <p class="list-group-item-text">De 12 a 16 años</p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <button class="btn btn-warning float-end" data-bs-toggle="modal" data-bs-target="#ventana-matricula">
+                                        ¡Matrículate! <span class="badge text-bg-light">3</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <h4 class="list-group-item-heading">Ciclos Formativos</h4>
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <p class="list-group-item-text">A partir de los 18 años. Desarrollo de Aplicaciones WEB</p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <button class="btn btn-success float-end" data-bs-toggle="modal" data-bs-target="#ventana-matricula">
+                                        ¡Matrículate! <span class="badge text-bg-light">30</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+                <!-- Profesores -->
+            <div class="container">
+                <section id="profes" class="text-center seccion">
+                    <h3>PROFESORES</h3>
+                    <p><em>Lo mejor de lo mejor</em></p>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h4 class="text-center"><strong>Jacinto Pérez</strong></h4>
+                            <br>
+                            <a href="#profe1"
+                                data-bs-toggle="collapse"
+                                role="button"
+                                aria-expanded="false"
+                                aria-controls="profe1">
+                                <img src="img/profesor1.jpg" class="rounded-circle persona" alt="Jacinto Pérez">
+                            </a>
+                            <div id="profe1" class="collapse">
+                                <p>Mimo y artes plásticas</p>
+                                <p>Introducción a las tareas domésticas</p>
+                                <p>Diseño de Interfaces WEB</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <h4 class="text-center"><strong>Lidio Martínez</strong></h4>
+                            <br>
+                            <a href="#profe2"
+                                data-bs-toggle="collapse"
+                                role="button"
+                                aria-expanded="false"
+                                aria-controls="profe2">
+                                <img src="img/profesor2.jpg" class="rounded-circle persona" alt="Lidio Martínez">
+                            </a>
+                            <div id="profe2" class="collapse">
+                                <p>Educación Física</p>
+                                <p>Lengua extranjera</p>
+                                <p>Desarrollo WEB en entorno Cliente</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <h4 class="text-center"><strong>Filomena Pí</strong></h4>
+                            <br>
+                            <a href="#profe3" 
+                                data-bs-toggle="collapse"
+                                role="button"
+                                aria-expanded="false"
+                                aria-controls="profe3">
+                                <img src="img/profesora3.jpg" class="rounded-circle persona" alt="Filomena Pí">
+                            </a>
+                            <div id="profe3" class="collapse">
+                                <p>Teatro</p>
+                                <p>Física del espacio</p>
+                                <p>Programación</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                </section>
+            </div>
+                <!-- Contacto -->
+            <section id="contacto" class="seccion full-gray">
+                <div class="container">
+                    <h3 class="text-center">CONTACTO</h3>
+                    <p class="text-center">
+                        <em>Pregúntanos lo que quieras</em>
+                    </p>
+                    <br>
+        
+                    <div class="row">
+                        <div class="col-md-offset-2 col-md-8 mx-auto">
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                    <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
+                                </div>
+                                <div class="col-6">
+                                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                                </div>
+                            </div>
+                            <textarea class="form-control" id="comments" name="comments" placeholder="Comentario" rows="5"></textarea>
+                            <br>
+                            <div class="row">
+                                <div class="col-12">
+                                    <button class="btn btn-primary float-end" type="submit">Send</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>            
+                <!-- proyectos europeos -->
+            <div class="container">
+                <section id="proyEuropa" class="seccion">
+                    <h3 class="text-center">PROYECTOS EUROPEOS</h3>
+                    <ul class="nav nav-tabs">
+                        <li class="active">
+                            <button class="nav-link" 
+                                data-bs-toggle="tab" 
+                                data-bs-target="#FCTEuropa"
+                                type="button"
+                                role="tab"
+                                aria-controls="home-tab-pane" 
+                                aria-selected="true">FCT Europa</a>
+                        </li>
+                        <li>
+                            <button class="nav-link active" 
+                                data-bs-toggle="tab"
+                                data-bs-target="#ErasmusPlus"
+                                type="button"
+                                role="tab"
+                                aria-controls="home-tab-pane" 
+                                aria-selected="true">
+                                Erasmus +
+                            </button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content mt-3">
+                        <div id="FCTEuropa" class="tab-pane fade show active">
+                            <h2>FCT Europa</h2>
+                            <p>¡¡Haz las prácticas en Europa!!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, voluptatem doloremque quo. Tempora esse ipsa sit, consequuntur ducimus maxime tenetur. Laudantium iusto dicta fugit cupiditate excepturi nihil alias cumque sapiente.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, voluptatem doloremque quo. Tempora esse ipsa sit, consequuntur ducimus maxime tenetur. Laudantium iusto dicta fugit cupiditate excepturi nihil alias cumque sapiente.</p>
+                        </div>
+                        <div id="ErasmusPlus" class="tab-pane fade">
+                            <h2>Erasmus +</h2>
+                            <p>¿Has pensando en seguir estudiando en otro país?</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, voluptatem doloremque quo. Tempora esse ipsa sit, consequuntur ducimus maxime tenetur. Laudantium iusto dicta fugit cupiditate excepturi nihil alias cumque sapiente.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, voluptatem doloremque quo. Tempora esse ipsa sit, consequuntur ducimus maxime tenetur. Laudantium iusto dicta fugit cupiditate excepturi nihil alias cumque sapiente.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+        <!-- footer -->
+    <footer class="container-fluid">
+        <div class="row text-center">
+            <div class="col-sm-12 text-center">
+                <a class="up-arrow" href="#home" data-bs-toggle="tooltip" title="Arriba">
+                    <i class="bi-chevron-up"></i>
+                </a>
+                <br>
+            </div>
+            <div class="col-sm-4 col-md-4 menu-footer">
+                <h4>Centro</h4>
+                <ul>
+                    <li class="list-unstyled"><a href="#">Información general</a></li>
+                    <li class="list-unstyled"><a href="#">Acceso plataforma</a></li>
+                    <li class="list-unstyled"><a href="#">Acceso turores</a></li>
+                    <li class="list-unstyled"><a href="#">Asistencia</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4 col-md-4 menu-footer">
+                <h4>Estudiantes</h4>
+                <ul>
+                    <li class="list-unstyled"><a href="#">Información general</a></li>
+                    <li class="list-unstyled"><a href="#">Acceso plataforma</a></li>
+                    <li class="list-unstyled"><a href="#">Acceso notas</a></li>
+                    <li class="list-unstyled"><a href="#">Asistencia</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4 col-md-4 menu-footer">
+                <h4>Profesores</h4>
+                <ul>
+                    <li class="list-unstyled"><a href="#">Información general</a></li>
+                    <li class="list-unstyled"><a href="#">Acceso plataforma</a></li>
+                    <li class="list-unstyled"><a href="#">Acceso turores</a></li>
+                    <li class="list-unstyled"><a href="#">Asistencia</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-12 text-center">
+                <h5>Diseño de Interfaces WEB. UD05. Bootstrap</h5>
+                <p>Desarrollo de Aplicaciones WEB <a href="http://ceedcv.org" data-bs-toggle="tooltip" title="Visita CEEDCV">Centro Específico de Educación a Distancia</a>
+                    <br> Diseño basado en template Band de <a href="http://www.w3schools.com" data-bs-toggle="tooltip" title="Visita w3schools">www.w3schools.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade"
+        id="ventana-matricula"
+        role="dialog"
+        tabindex="-1">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>
+                        <i class="bi-lock-fill"></i>
+                        Matrícula
+                    </h4>
+                    <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Cerrar">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form role="form">
+                        <div class="mb-3">
+                            <label for="nivel" class="form-label">
+                                <i class="bi-briefcase-fill"></i>
+                                Nivel escolar
+                            </label>
+                            <select class="form-select" id="nivel" aria-label="Seleccionar nivel escolar">
+                                <option value="infantil">Infantil</option>
+                                <option value="secundaria">Secundaria</option>
+                                <option value="ciclosformativos">Ciclos Formativos</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="alumno" class="form-label">
+                                <i class="bi-person-fill"></i>
+                                Alumno
+                            </label>
+                            <input type="text" class="form-control" id="alumno" placeholder="Nombre y apellidos">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">
+                        Matricula
+                        <i class="bi-check-fill"></i>
+                    </button>
+                    <button class="btn btn-danger" data-bs-dismiss="modal">
+                        <i class="bi-x-lg"></i>
+                        Cancelar
+                    </button>
+                    <p>¿Necesita <a href="#">ayuda</a>?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
