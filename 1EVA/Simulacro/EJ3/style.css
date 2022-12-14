@@ -1,0 +1,114 @@
+body {
+    background-color: lightgray;
+}
+
+.float {
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+}
+
+.float .borde {
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    background-color: white;
+    width: fit-content;
+    overflow: hidden;
+    border: 2px solid rgb(25, 218, 236);
+    border-radius: 10px;
+}
+
+.float ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    overflow: hidden;
+}
+
+.float li {
+    float: left;
+    width: fit-content;
+    overflow: hidden;
+    padding: 10px;
+    background-color: white;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.flex .borde {
+    width: fit-content;
+    border: 2px solid rgb(25, 218, 236);
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.flex ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.flex li {
+    padding: 10px;
+    text-align: center;
+}
+
+.grid {
+display: grid;
+grid-template-areas: "x c a";
+justify-content: center;
+}
+
+.grid .borde {
+    grid-area: c;
+    width: fit-content;
+    border: 2px solid rgb(25, 218, 236);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.grid ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-areas: "a b c d";
+}
+
+.grid li {
+    padding: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .float li {
+        clear: both;
+        text-align: center;
+        width: 80%;
+    }
+    .float ul {
+        text-align: center;
+    }
+
+    .flex ul {
+        flex-direction: column;
+    }
+
+    .grid ul {
+        grid-template-areas: 
+        "a"
+        "b"
+        "c"
+        "d";
+    }
+}
